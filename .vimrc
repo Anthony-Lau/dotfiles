@@ -6,10 +6,12 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'preservim/nerdtree'
 Plug 'drewtempelmeyer/palenight.vim'
+Plug 'rakr/vim-one'
 
 call plug#end()
 
 colorscheme one
+set background=dark
 
 " toggle nerd tree
 map <C-n> :NERDTreeToggle<CR>
